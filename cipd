@@ -30,6 +30,9 @@ case "${UNAME}" in
   linux)
     OS="${UNAME}"
     ;;
+  freebsd)
+    OS="${UNAME}"
+    ;;
   cygwin*)
     OS=windows
     CYGWIN=true
