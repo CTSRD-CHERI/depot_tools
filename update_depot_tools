@@ -53,6 +53,8 @@ if [ $MINGW = 0 ]; then
   esac
 fi
 
+CANONICAL_GIT_URL="https://github.com/chromium-cheri/depot_tools.git"
+
 GIT="git"
 if [ -e "$base_dir/git.bat" -a $MINGW = 0 ]; then
   GIT="cmd.exe //c \"$base_dir\\git.bat\""
