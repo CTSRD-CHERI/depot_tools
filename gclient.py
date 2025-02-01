@@ -1685,13 +1685,13 @@ class Dependency(gclient_utils.WorkItem, DependencySettings):
 
 
 _PLATFORM_MAPPING = {
-    'cygwin': 'win',
-    'darwin': 'mac',
-    'linux2': 'linux',
-    'linux': 'linux',
-    'win32': 'win',
-    'aix6': 'aix',
-    'zos': 'zos',
+  'cygwin': 'win',
+  'darwin': 'mac',
+  'freebsd15': 'freebsd',
+  'linux2': 'linux',
+  'linux': 'linux',
+  'win32': 'win',
+  'aix6': 'aix',
 }
 
 
