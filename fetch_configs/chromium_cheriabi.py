@@ -22,7 +22,7 @@ class Chromium(config_util.Config):
             'custom_deps': {
                 "src/media/cdm/api": "https://github.com/chromium-cheri/cdm.git@06dcab5c64a4bc935128c45cfcd7f2e869ad1ae7",
                 "src/third_party/angle": "https://github.com/chromium-cheri/angle.git@aa6470dd016fde093bb7b98f51171644353d670c",
-                "src/third_party/boringssl/src": "https://github.com/chromium-cheri/boringssl.git@f7825d609ae29c54b50b34066e007cf2849a971e",
+                "src/third_party/boringssl/src": "https://github.com/CTSRD-CHERI/boringssl.git@16e3025bef4d75edb347db72fc220e6a621b5544",
                 "src/third_party/dawn": "https://github.com/chromium-cheri/dawn.git@e994f6fbbef1cf635d2ca79d8781896ff4a7a279",
                 "src/third_party/dav1d/libdav1d": "https://github.com/chromium-cheri/dav1d.git@aa123ecb5ff5c84d74f4b00c4dc65b9328966936",
                 "src/third_party/ffmpeg": "https://github.com/chromium-cheri/ffmpeg.git@2f10398a3d5f4141945d3f74bc5633c96109830f",
