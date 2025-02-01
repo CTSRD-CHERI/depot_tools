@@ -89,6 +89,10 @@ infra/tools/bb/linux-amd64
 	git_revision:d791252214c1c2c6b5fbdd773499781622a82529
 	5duiB10Uqn62EMxdRNF5q3KXkm3XOUrM4KUhc4KpmKkC
 
+infra/tools/bb/freebsd-arm64
+       git_revision:bd3a982ae62b4820b71414b2340e86019a1fbd26
+       vvAm_G5aFkOq3Xo43YVQTbiIh1eAzWFcS-EfBCqLAOsC
+
 infra/tools/bb/linux-arm64
 	git_revision:d791252214c1c2c6b5fbdd773499781622a82529
 	ii5vEtJTso0VKxbDVaUeGXOSrVbiFbgGkIKzXAb66XUC
@@ -144,6 +148,10 @@ infra/tools/dirmd/linux-386
 infra/tools/dirmd/linux-amd64
 	git_revision:d53a151dd215658988e3284d02996f22c8ab412f
 	tE0sBkyjmNiZ9kvfim6_9SoIpI6ZKiX5-CZbqv7Q43EC
+
+infra/tools/dirmd/freebsd-arm64
+       git_revision:9558e2c2dc002209753b8e61b83c4a2c81361fbc
+       u6_AXINx1AL_jc8gYUSMEdpIMj2C2M6FaUeF6O31Z2gC
 
 infra/tools/dirmd/linux-arm64
 	git_revision:d53a151dd215658988e3284d02996f22c8ab412f
@@ -201,6 +209,10 @@ infra/tools/luci-auth/linux-amd64
 	git_revision:56489f37e8efab64d8b92670e35c1122634b9cae
 	O72uAMybmmWQ4EfuQmq6gd8XRqjG7iq5p9uq30k_-LsC
 
+infra/tools/luci-auth/freebsd-arm64
+       git_revision:bd3a982ae62b4820b71414b2340e86019a1fbd26
+       IEKAR4ixj4cosyBtSQmEMZ0ANPPa88lPOzxO8XrTbtsC
+
 infra/tools/luci-auth/linux-arm64
 	git_revision:56489f37e8efab64d8b92670e35c1122634b9cae
 	G4wKNHUaPpXFCsaIKMrXzEpVoo24sc_RdMogKz-bCkAC
@@ -256,6 +268,10 @@ infra/tools/luci/led/linux-386
 infra/tools/luci/led/linux-amd64
 	git_revision:5996f38bcf1d53582b3c62711271dc92782ce43d
 	_C-3kADdlV-BUxrpOs0jBRVxHytgNmgjAa0bBYo6Ty8C
+
+infra/tools/luci/led/freebsd-arm64
+       git_revision:3533cc64973555e09249964c6efbd8ad8a53f53c
+       LA-tW6SmAX7HobD4cU8dhnhJsfweVjvxeHshu5H8oKkC
 
 infra/tools/luci/led/linux-arm64
 	git_revision:5996f38bcf1d53582b3c62711271dc92782ce43d
@@ -313,6 +329,10 @@ infra/tools/luci/lucicfg/linux-amd64
 	git_revision:b9abef1757f353159607f840cc5325b0397aa73f
 	u8y6Kwf33hkZSH932SRUVsjDWgJi5uS2BB7LQtup70wC
 
+infra/tools/luci/lucicfg/freebsd-arm64
+       git_revision:2030482b389cfda6a33ad0933e9930a31fd464d9
+       rv7TQ4HU-gjckSpdhqQ1gv4GBrlRasUh_iAGcHJ_mRMC
+
 infra/tools/luci/lucicfg/linux-arm64
 	git_revision:b9abef1757f353159607f840cc5325b0397aa73f
 	2HcQalg_TqHBW09P0bLzAZw-T28T1Lgij0_6Kb3qiqIC
@@ -368,6 +388,10 @@ infra/tools/luci/vpython/linux-386
 infra/tools/luci/vpython/linux-amd64
 	git_revision:7db81fdd219325d5d11fdaf56357ec28c26fffb3
 	9yAXv0KsU9JAgagYQxkjWkU_YUDsDJpdQ4Rktg-EJDoC
+
+infra/tools/luci/vpython3/freebsd-arm64
+       git_revision:0d3ddb98a60b9295a8267beaccd6b6787d17c422
+       9pzgpcs9qUbl2tGdUMjwPByLFPmrwItc36N-tR4zM3UC
 
 infra/tools/luci/vpython/linux-arm64
 	git_revision:7db81fdd219325d5d11fdaf56357ec28c26fffb3
@@ -433,6 +457,10 @@ infra/tools/prpc/linux-amd64
 	git_revision:fc9d7a3dff50d001c7c7dcf9f5f312be5d2d2ab2
 	yDBZyIuv3tTScaAZM83Y7SKfJOyTVuQxIoXFug5NBSMC
 
+infra/tools/prpc/freebsd-arm64
+       git_revision:bd3a982ae62b4820b71414b2340e86019a1fbd26
+       VKCSgvcQYiistgqNkk4lh_ZXS1VRnVP1lGy0168rtZcC
+
 infra/tools/prpc/linux-arm64
 	git_revision:fc9d7a3dff50d001c7c7dcf9f5f312be5d2d2ab2
 	9AcRImmvWdcAeE3tcWcUDCvFYjrzyJf4aRcqcrbhdFAC
@@ -488,6 +516,10 @@ infra/tools/rdb/linux-386
 infra/tools/rdb/linux-amd64
 	git_revision:5111dcfc7b559e41a5256d3e7b04542eab70cb55
 	03FEaLHT7gyS0pLyUKkeG-3g1OoG1r6Jhy5XJBlRtdMC
+
+infra/tools/rdb/freebsd-arm64
+       git_revision:cbcb6b9a7008e31d33674b1ce0023db5d018b149
+       B_2S8DLMUmQLPS5CBoRXJn0YqaQDwSCdL2DedIr3I1kC
 
 infra/tools/rdb/linux-arm64
 	git_revision:5111dcfc7b559e41a5256d3e7b04542eab70cb55
