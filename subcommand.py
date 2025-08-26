@@ -46,6 +46,7 @@ import optparse
 
 from collections.abc import Callable
 from typing import NoReturn
+from typing import Union
 
 CommandFunction = Callable[[optparse.OptionParser, list[str]], int]
 
@@ -131,7 +132,7 @@ class CommandDispatcher(object):
         cmds.setdefault('help', CMDhelp)
         return cmds
 
-    def find_nearest_command(self, name_asked: str) -> CommandFunction | None:
+    def find_nearest_command(self, name_asked: str) -> Union[None, CommandFunction]:
         """Retrieves the function to handle a command as supplied by the user.
 
         It automatically tries to guess the _intended command_ by handling typos
