@@ -19,11 +19,6 @@ class V8(config_util.Config):
             'url': url,
             'deps_file': 'DEPS',
             'managed': False,
-            'custom_deps': {
-               "v8/build": "https://github.com/chromium-cheri/build.git@9a86e31a61f262071edd37ac24e05515c2764fd3",
-               "v8/buildtools": "https://github.com/chromium-cheri/buildtools.git@8b16338d17cd71b04a6ba28da7322ab6739892c2",
-               "v8/third_party/zlib": "https://github.com/chromium-cheri/zlib.git@05ca39ba1b282fc3ed9e5e3f0ebfadafaa25ef21",
-            },
         }
         spec = {
             'solutions': [solution],
